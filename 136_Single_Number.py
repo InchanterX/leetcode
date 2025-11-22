@@ -1,4 +1,4 @@
-# perfect
+# perfect O(n)
 from typing import List
 
 

@@ -1,4 +1,4 @@
-# fine+
+# fine+ O(n+m)
 from typing import List
 
 

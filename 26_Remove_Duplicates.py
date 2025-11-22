@@ -1,11 +1,9 @@
-# must be remade
+# fine O(n)
 from typing import List
 
 
 class Solution:
-    # Leetcode option
-    # def removeDuplicates(self, nums: List[int]) -> int:
-    def removeDuplicates(nums: List[int]) -> int:
+    def removeDuplicates(self, nums: List[int]) -> int:
         p1 = 0
         p2 = 1
         k = 1
@@ -20,6 +18,3 @@ class Solution:
                 p1 += 1
                 p2 = p1+1
         return k
-
-
-print(Solution.removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))
